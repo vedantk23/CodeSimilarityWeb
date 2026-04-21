@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Code Similarity Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <link rel="stylesheet" href="styles/globals.css" />
+  <link rel="icon" href="public/favicon.ico" type="image/x-icon">
+</head>
+<body class="bg-gradient-to-br from-gray-950 to-black text-white min-h-screen">
+
+  <div class="max-w-6xl mx-auto px-6 py-20 text-center">
+    <h1 class="text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent">
+      Code Similarity Hub
+    </h1>
+    <p class="text-2xl text-gray-400 mb-16">
+      Choose the tool that best fits your need
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+      
+      <!-- Card 1: Hugging Face Space -->
+      <a href="https://huggingface.co/spaces/vedantk23/CodeSimilarity" 
+         target="_blank"
+         class="group card bg-gray-900 border border-gray-700 hover:border-purple-500 rounded-3xl p-10 transition-all duration-300 hover:scale-105">
+        <div class="flex justify-center mb-8">
+          <div class="w-24 h-24 bg-gradient-to-br from-orange-500 to-red-600 rounded-3xl flex items-center justify-center text-5xl shadow-lg">
+            🤖
+          </div>
+        </div>
+        <h2 class="text-3xl font-semibold mb-3 group-hover:text-purple-400">CodeGNN Clone Detection</h2>
+        <p class="text-gray-400 text-lg mb-6">
+          Advanced Graph Neural Network with AST + CFG + PDG
+        </p>
+        <span class="inline-flex items-center gap-2 text-purple-400 font-medium">
+          Open on Hugging Face <i class="fa-solid fa-external-link-alt ml-1"></i>
+        </span>
+      </a>
+
+      <!-- Card 2: Streamlit App -->
+      <a href="https://codesimilarity.streamlit.app" 
+         target="_blank"
+         class="group card bg-gray-900 border border-gray-700 hover:border-cyan-500 rounded-3xl p-10 transition-all duration-300 hover:scale-105">
+        <div class="flex justify-center mb-8">
+          <div class="w-24 h-24 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-3xl flex items-center justify-center text-5xl shadow-lg">
+            📊
+          </div>
+        </div>
+        <h2 class="text-3xl font-semibold mb-3 group-hover:text-cyan-400">Assignment Code Checker</h2>
+        <p class="text-gray-400 text-lg mb-6">
+          Multi-file plagiarism detection with similarity heatmap
+        </p>
+        <span class="inline-flex items-center gap-2 text-cyan-400 font-medium">
+          Open Streamlit App <i class="fa-solid fa-external-link-alt ml-1"></i>
+        </span>
+      </a>
+
+    </div>
+
+    <p class="mt-20 text-gray-500 text-sm">
+      Built by Vedant • Central hub for both Code Similarity tools
+    </p>
+  </div>
+
+</body>
+</html>
